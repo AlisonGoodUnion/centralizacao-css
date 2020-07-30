@@ -19,5 +19,7 @@ https://www.youtube.com/watch?v=JbzcLKiTThk
         Documentações: Lembrando que tem incompatibilidade com algunas versões/browsers.
         https://www.w3schools.com/css/css3_flexbox.asp
         https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-        
-        
+
+    * Ex4: 
+        Centralizando horizontalmente:
+        Bônus: text-align center + display inline-block
