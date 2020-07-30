@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="./base.css" />
+
+<section class="container second-area">
+    <h2>Centralização Vertical e Horizontalmente:</h2>
+    <h3>Display block + tamanhos + Margin auto</h3>
+    <style contenteditable="true">
+        .wrapper2 {
+            position: relative;
+            height: 200px;
+            background: #ebebeb;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        Square position: absolute
+        essa propriedade respeita o espaço do pai, então 
+        ele pode ficar navegando nesse espaço.
+        Quando utilizamos
+            bottom: 0;
+            right: 0;
+            top: 0;
+            left: 0;
+        O elemento fica posicionado na esquerda, mas pq? 
+        pq precisamos utilizar o 
+            margin: auto; assim o calculo fica automatico
+            deixando o component no meio
+        e só funciona se tivermos altura e largura
+        definida no elemento.
+
+
+    </style>
+    <div class="wrapper wrapper2">
+        <button class="square">Elemento</button>
+    </div>
+</section>
